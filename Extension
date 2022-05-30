@@ -1,0 +1,18 @@
+print("Enter the file name along with the extension(either an image,python file,java file,pdf,document,html file)")
+s=str(input())
+x=s.split(".")
+ext=x[1]
+if ext=="py":
+ print(s," is a python file")
+elif ext=="pdf":
+ print(s," is a PDF")
+elif ext=="jpeg":
+ print(s," is a image")
+elif ext=="doc":
+ print(s," is a document")
+elif ext=="html":
+ print(s," is a html file")
+elif ext=="jsp":
+ print(s," is a java file")
+else:
+ print("Enter a different kind of file")
