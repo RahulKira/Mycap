@@ -1,0 +1,15 @@
+print("Enter the number of elements")
+a=int(input())
+print("enter the elements")
+x=[]
+for i in range(0,a):
+ ele=int(input())
+ x.append(ele)
+print("Enter the range of which u need the positive numbers")
+n=int(input()) 
+for i in range(0,n):
+ if x[i]<0:
+     e=x[i]
+     x.remove(e)
+for i in range(0,n):
+ print(x[i])
